@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CSS GRID</title>
+
+<style>
+	.board{
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 100px 100px ;
+		gap:10px;
+		padding:20px
+		}
+	.box1{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+		grid-column:1;
+		grid-row:1/50;
+		
+		
+	}
+	.box2{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+	}
+	.box3{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+	}
+	.box4{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+	}	
+	.box5{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+	}	
+	.box6{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+		grid-column:1/5;
+		grid-row:52;
+	}	
+	
+	.box7{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+	}	
+	.box8{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+	}	
+	.box9{
+		background-color:grey;
+		color:white;
+		text-align:center;
+		padding: 40px;
+	}	
+
+</style>	
+</head>
+<body>
+	<div class="board">
+		<div class="box1">
+			Hello
+		</div>
+
+		<div class="box2">
+			HAI
+		</div>
+		<div class="box3">
+			HOW
+		</div>
+		<div class="box4">
+			Hello
+		</div>
+
+		<div class="box5">
+			HAI
+		</div>
+		<div class="box6">
+			HOW
+		</div>
+		
+		<div class="box7">
+			Hello
+		</div>
+
+		<div class="box8">
+			HAI
+		</div>
+		<div class="box9">
+			HOW
+		</div>
+	</div>
+
+</body>
+</html>

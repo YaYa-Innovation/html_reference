@@ -1,0 +1,42 @@
+<!DOCTYPE htlml>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.mydiv{
+	display:none;
+}
+.btn{
+	background-color: #4caf50;
+	color:white;
+	padding:10px;
+	border:none;
+	cursor:pointer;
+	
+}
+</style>
+</head>
+<body>
+
+<button class="btn" onclick="show_div('div1')">DIV 1 Door</button>	
+
+	<div id="div1" class="mydiv">
+		<h1>HEllo I'AM DIV 1</h1>
+	</div>
+
+<script>
+	function show_div(divId){
+		var mydiv=document.getElementById(divId);
+		if (mydiv.style.display ==="none"){
+			mydiv.style.display ="block";
+		}
+		else{
+			mydiv.style.display ="none";
+		}
+	}
+
+</script>
+</body>
+
+</html>
